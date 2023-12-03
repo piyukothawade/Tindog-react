@@ -1,0 +1,16 @@
+.press-container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: auto;
+    background-color: #ef8172;
+    padding: 2rem;
+    
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+    margin: 2rem 0;
+    padding: 0 1.3rem;
+}
+

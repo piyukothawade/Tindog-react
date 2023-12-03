@@ -1,0 +1,87 @@
+.pricing{
+    /* width: 100%; */
+    padding: 2rem 1rem 5rem 1rem;
+    background-color: #fff;
+}
+
+.card-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 4rem;
+    
+    
+}
+.desc-title{
+    font-size: 2.4rem;
+}
+.desc-p{
+    color: #8f8f8f;
+}
+.card{
+    margin: 10px;
+    /* background-color: aliceblue; */
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    color: #8f8f8f;
+}
+.card:hover{
+    background-color: #e9ecef;
+}
+.btc{
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+}
+.plan-description{
+    padding: 0 1rem;
+}
+.breed-title{
+    background-color: #e9ecef;
+    height: 3rem;
+    padding-top: 1rem;
+}
+.card1-btn{
+    background-color: #fff;
+    color: black;
+    margin-right: 4rem;
+}
+.card1-btn:hover{
+    background: black;
+    transition: 0.3s;
+    color: #fff;
+}
+button{
+    margin: 1rem;
+}
+button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transition: 0.3s;
+    color: black;
+}
+
+
+@media screen and (max-width: 740px){
+    .card-container{
+        /* max-width: 90%; */
+        margin: auto;
+        grid-template-columns: 1fr
+    }
+    button{
+        align-items: center;
+        padding-left: 2rem;
+        margin-top: 3rem;
+        margin-left: 3.8rem;
+    }
+    .card-btn{
+        margin: 2rem 3rem;
+
+    }
+    .card2-btn{
+        margin-right: 4rem;
+
+    }
+}

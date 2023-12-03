@@ -1,0 +1,95 @@
+.main-container{
+    display: flex;
+    justify-content: center;
+    background-color: #ef8172;
+    height: auto;
+    padding: 5rem 0;
+    color: lightgray;
+    font-size: large;
+}
+.slider-container{
+    width: 50%;
+}
+
+.profile{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #fff;
+    padding: 7px;
+    margin-bottom: 1.5rem;
+}
+.card-con{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.ptag{
+    color: #fff;
+    font-weight: bold;
+    font-style: italic
+
+}
+.city{
+    font-style: italic;
+}
+.test-title{
+    color: #fff;
+}
+    /* Add these styles for the custom arrow components */
+    .custom-prev-arrow,
+    .custom-next-arrow {
+      width: 30px;
+      height: 30px;
+      background-color: #fff;
+      position: absolute;
+      top: 40%;
+      transform: translateY(-50%);
+      font-size: 20px;
+      color: #ef8172;
+      cursor: pointer;
+      padding-top: 0.5rem;
+    }
+    
+    .custom-prev-arrow {
+      left: -30px;
+    }
+    
+    .custom-next-arrow {
+      right: -30px;
+    }
+@media screen and (max-width: 640px){
+    .profile{
+        width: 150px;
+        height: 150px;
+    }
+    .ptag{
+        margin-bottom: 3rem;
+    }
+
+    /* Add these styles for the custom arrow components */
+/* .custom-prev-arrow,
+.custom-next-arrow {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #ef8172;
+  cursor: pointer;
+}
+
+.custom-prev-arrow {
+  left: -30px;
+}
+
+.custom-next-arrow {
+  right: -30px;
+} */
+
+    
+}
+

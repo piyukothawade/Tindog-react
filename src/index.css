@@ -1,13 +1,53 @@
 body {
+  font-family: "Montserrat-bold";
+  text-align: center;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1, h2, h3, h4, h5, h6, a {
+  font-family: "Montserrat-Bold";
+  font-weight: bolder;
+  text-decoration: none;
+  
+}
+ul{
+  list-style-type: none;
+}
+.buttons{
+  padding: 1rem 0;
+
+}
+.buttn{
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: black;
+  color: #fff;
+  border-radius: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-right: 1rem;
+
+}
+.buttn-light {
+  background-color: transparent;
+  color: #fff;
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border-radius: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  
+}
+
+.buttn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transition: 0.3s;
+}
+.buttn-light:hover{
+  background: rgba(255, 255, 255, 0.2);
+  transition: 0.3s;
+  
 }

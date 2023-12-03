@@ -1,0 +1,18 @@
+.brand-section-slider{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 4rem;
+    margin: 10rem 2rem 6rem 2rem;
+}
+.des{
+    color: #8f8f8f;
+}
+@media screen and (max-width: 640px){
+    .brand-section-slider{
+        flex-direction: column;
+        margin: 5rem 2rem;
+    }
+    .slide{
+        margin-top: 2rem;
+    }
+}

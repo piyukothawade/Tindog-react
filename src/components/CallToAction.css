@@ -1,0 +1,20 @@
+.call-container{
+    background-color: #ff4c68;
+    height: 100%;
+    padding: 8rem 1rem;
+}
+.call-heading{
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+@media screen and (max-width: 640px){
+    .call-heading{
+        font-size: 1.5rem;
+        align-items: center;
+    }
+    .buttons{
+        margin-right: 3rem;
+    }
+    
+}
