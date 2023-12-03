@@ -37,7 +37,7 @@
 .test-title{
     color: #fff;
 }
-    /* Add these styles for the custom arrow components */
+    
     .custom-prev-arrow,
     .custom-next-arrow {
       width: 30px;
@@ -67,28 +67,6 @@
     .ptag{
         margin-bottom: 3rem;
     }
-
-    /* Add these styles for the custom arrow components */
-/* .custom-prev-arrow,
-.custom-next-arrow {
-  width: 30px;
-  height: 30px;
-  background-color: #fff;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 20px;
-  color: #ef8172;
-  cursor: pointer;
-}
-
-.custom-prev-arrow {
-  left: -30px;
-}
-
-.custom-next-arrow {
-  right: -30px;
-} */
 
     
 }

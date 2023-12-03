@@ -3,8 +3,8 @@ import { FaCheckCircle, FaBullseye, FaHeart } from "react-icons/fa";
 import "./FeatureStyles.css";
 
 const Features = () => {
-  // Define the color you want for the icons
-  const iconColor = "#ef8172"; // Use the desired color
+  
+  const iconColor = "#ef8172"; 
 
   return (
     <div>
