@@ -11,7 +11,7 @@ const PricingCard = () => {
         <div className='card-container'>
             <div className='card'>
                 <h3 className='breed-title'>- Chihuahua -</h3>
-                <span className='bar'></span>
+                {/* <span className='bar'></span> */}
                 <p className='btc'> Free</p>
                 <p>- Matches per day -</p>
                 <p>- 10 Messages Per Day -</p>
@@ -23,7 +23,7 @@ const PricingCard = () => {
 
             <div className='card'>
                 <h3 className='breed-title'>- Labrador -</h3>
-                <span className='bar'></span>
+                {/* <span className='bar'></span> */}
                 <p className='btc'> $49 / mo </p>
                 <p>- Unlimited Matches -</p>
                 <p>- Unlimited Messages -</p>
@@ -35,7 +35,7 @@ const PricingCard = () => {
 
             <div className='card'>
                 <h3 className='breed-title'>- Mastiff -</h3>
-                <span className='bar'></span>
+                {/* <span className='bar'></span> */}
                 <p className='btc'> $99 / mo </p>
                 <p>- Pirority Listing -</p>
                 <p>- Unlimited Matches -</p>

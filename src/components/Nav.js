@@ -12,7 +12,7 @@ class Nav extends Component {
   return (
     <>
     <nav>
-        <a className='logo' href=''> tindog</a>
+        <h3 className='logo' href=''> tindog</h3>
         <div>
             <ul id='navbar' className={this.state.clicked ? "#navbar active" : "#navbar"}>
                 <li><a className='active' href=''>Home</a></li>
